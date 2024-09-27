@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce-application",
+  "version": "1.0.0",
+  "description": "e-comm application to perform curd operations of products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "author": "Jasmeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.4",
+    "path": "^0.12.7"
+  }
+}
